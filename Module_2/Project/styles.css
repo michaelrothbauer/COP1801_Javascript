@@ -1,0 +1,62 @@
+/*Navbar*/
+@media screen and (max-width: 425px) and (min-width: 300px){
+  img.header-logo {
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 700px) and (min-width: 425px){
+  img.header-logo {
+    height: 45px;
+  }
+}
+
+@media screen and (min-width: 700px){
+  img.header-logo {
+      height: 60px;
+  }
+}
+
+/*Content*/
+.h1-header {
+  margin: 80px auto;
+  text-align: center;
+  font-size: 60px;
+  color: rgb(102, 163, 255);
+}
+
+.thumbnail {
+  margin: 30px auto;
+  text-align: center;
+}
+
+.thumbnail p {
+  margin: 20px auto;
+  width: 80%;
+  text-align: left;
+}
+
+.thumbnail a {
+  font-size: 25px;
+  font-weight: 500;
+  color: rgb(102, 163, 255);
+}
+
+.thumbnail img {
+  margin: 10px auto;
+  width: 100%;
+}
+
+/*Extra info*/
+.extra-info {
+  height: 10%;
+  margin-top: 100px;
+  margin: 100px auto;
+  color: white;
+  padding: 10px;
+}
+
+.footer {
+  text-align: right;
+  margin-bottom: 20px;
+}
